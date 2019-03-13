@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "Accumulate.csproj", "{536ABCE9-34EC-4750-8DA1-C8AE24501EA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536ABCE9-34EC-4750-8DA1-C8AE24501EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536ABCE9-34EC-4750-8DA1-C8AE24501EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536ABCE9-34EC-4750-8DA1-C8AE24501EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536ABCE9-34EC-4750-8DA1-C8AE24501EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {936C8123-BCEA-42EC-93FD-B60B7FC0291A}
+	EndGlobalSection
+EndGlobal
