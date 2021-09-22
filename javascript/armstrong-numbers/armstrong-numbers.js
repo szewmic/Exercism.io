@@ -1,11 +1,10 @@
 //
-// This is only a SKELETON file for the 'Armstrong numbers' exercise. It's been provided as a
+// This is only a SKELETON file for the 'Armstrong Numbers' exercise. It's been provided as a
 // convenience to get you started writing code faster.
 //
 
 export const isArmstrongNumber = (number) => {
-  let numberStr = number.toString();
-  let numberLength = numberStr.length;
-  let result = [...numberStr].reduce((prev, curr) => {return prev + Number(curr) * numberLength});
-  return result === number;
+  let digits = [...number.toString()].map(nr => parseInt(nr));
+  let digitsPoweredSum = digits.reduce((prevVal, currVal) => prevVal + Math.pow(currVal, digits.length), 0);
+  return number === digitsPoweredSum;
 };
